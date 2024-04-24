@@ -1,10 +1,8 @@
-/*
+package com.infotecheduca.hotel.modelo.dao;/*
 
 A classe GenericoDAO<T> é uma classe de Acesso a Dados (Data Access Object, DAO) genérica projetada para 
 interagir com um banco de dados usando Java e JDBC. A classe usa genéricos (<T>) para fornecer flexibilidade, 
 permitindo que ela seja reutilizada para diversos tipos de objetos de domínio. */
-
-package com.mycompany.projetoweb.modelo.dao;
 
 
 import java.sql.Connection;
@@ -18,7 +16,7 @@ import java.util.List;
 
 
 public class GenericoDAO<T> {
-    private  ConnectionFactory connectionFactory = ConnectionFactory.getInstance();
+    private ConnectionFactory connectionFactory = ConnectionFactory.getInstance();
 /*Método para inserir,atualizar e excluir registros no banco de dados. Ele aceita uma string SQL e um número variável 
  de parâmetros que são usados para preencher a consulta. O método trata exceções, gerencia recursos e fornece 
     feedback sobre o sucesso da operação.*/

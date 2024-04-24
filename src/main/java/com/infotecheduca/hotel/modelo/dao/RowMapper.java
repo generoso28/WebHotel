@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.projetoweb.modelo.dao;
+package com.infotecheduca.hotel.modelo.dao;
 
 
 import java.sql.ResultSet;
